@@ -7,6 +7,12 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: "Norse Bold";
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+
 html {
     overflow-y: scroll;
     overflow-x: hidden; 
