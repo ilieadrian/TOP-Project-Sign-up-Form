@@ -7,11 +7,15 @@
     margin: 0;
 }
 
+:root {
+    --button-color: #596D48;
+    --border-color: #E5E7EB;
+}
+
 @font-face {
     font-family: "Norse Bold";
     src: url(./fonts/Norse-Bold.otf);
 }
-
 
 html {
     overflow-y: scroll;
