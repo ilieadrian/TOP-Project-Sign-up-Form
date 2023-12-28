@@ -24,10 +24,11 @@ html {
 body {
     min-height: 100vh;
     height: 100vh;
+    width: 1=00%;
     font-family: 'Montserrat', sans-serif;
     background-color: #F9FBFC;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0 auto;
     position: relative;
     text-align: center;
@@ -52,16 +53,16 @@ body {
 
 /* Footer */
 .attribution {
-    text-align: center;
+    /* text-align: center;
     width: 100%;
     padding-bottom: 0.3rem;
     font-size: 0.7rem;
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: 999;
+    z-index: 999; */
 }
 
 .attribution a {
-    margin-left: 0.3rem;
+    /* margin-left: 0.3rem; */
 }
