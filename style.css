@@ -34,6 +34,24 @@ body {
     text-align: center;
 }
 
+.hero-container {
+    flex-grow: 3;
+    background: center / cover no-repeat url(./images/background-image.jpg);
+}
+
+.logo-container img {
+    width: 70px;
+}
+
+.logo-text {
+    color: white;
+    font-family:
+}
+
+.form-container {
+    flex-grow: 4;
+}
+
 .button {
     min-width: 190px;
     font-size: 1rem;
