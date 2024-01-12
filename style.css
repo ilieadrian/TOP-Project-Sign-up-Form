@@ -24,8 +24,8 @@ html {
 body {
     min-height: 100vh;
     height: 100vh;
-    width: 1=00%;
-    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     background-color: #F9FBFC;
     display: flex;
     flex-direction: row;
@@ -35,21 +35,37 @@ body {
 }
 
 .hero-container {
-    flex-grow: 3;
+    height: 100vh;
+    width: 30%;
     background: center / cover no-repeat url(./images/background-image.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo-container {
+    margin-top: 10rem;
+    padding: 0.5rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo-container img {
-    width: 70px;
+    width: 100px;
+    color: white;
 }
 
 .logo-text {
     color: white;
-    font-family:
+    font-family: "Norse Bold", Arial, Helvetica, sans-serif;
+    font-size: 6rem;
 }
 
 .form-container {
-    flex-grow: 4;
+    width: 70%;
 }
 
 .button {
@@ -71,16 +87,13 @@ body {
 
 /* Footer */
 .attribution {
-    /* text-align: center;
+    color: white;
+    text-align: center;
     width: 100%;
-    padding-bottom: 0.3rem;
     font-size: 0.7rem;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 999; */
-}
+    margin-bottom: 0.5rem;
+        }
 
 .attribution a {
-    /* margin-left: 0.3rem; */
+    color: white;
 }
