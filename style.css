@@ -75,6 +75,10 @@ body {
     text-align: left;
 }
 
+.form-about {
+    width: 700px;
+}
+
 p.form-about:last-of-type {
     margin-bottom: 3rem;
 }
@@ -89,6 +93,7 @@ form {
 .container {
     margin-right: -3rem;
     margin-left: -3rem;
+    margin-bottom: 3rem;
     padding: 1rem 3rem 1rem 3rem;
     background-color: white;
     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
@@ -141,7 +146,7 @@ input {
     width: 17rem;
     outline: none;
     border: 1px solid var(--border-color);
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 input:focus {
@@ -162,26 +167,38 @@ li {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 0.7rem;
-    /* display: none; */
+    visibility: hidden;
 }
 
-
-
-.button {
-    min-width: 190px;
+button {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 14rem;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     border: none;
-    background-color: rgb(62, 76, 117);
+    background-color: var(--button-color);
     color: rgb(255, 255, 255);
-    padding: 0.75rem 1rem;
-    border-radius: 3px;
+    padding: 0.9rem;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+    margin-bottom: 3rem;
 }
 
-.button:hover {
+button:hover {
     border: none;
     cursor: pointer;
-    background-color: rgba(62, 76, 117, 0.8);
+    opacity: 0.9;
+}
+
+.login {
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+.login a {
+    color: var(--button-color);
+    text-decoration: none;
+    font-weight: 600;
 }
 
 .attribution {
