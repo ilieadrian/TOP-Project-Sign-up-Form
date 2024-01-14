@@ -75,19 +75,6 @@ body {
     text-align: left;
 }
 
-p.form-about, 
-legend {
-    text-align: left;
-    margin-bottom: 2rem;
-    font-size: 1.4rem;
-    font-weight: 600;
-    max-width: 75%;
-}
-
-legend {
-    margin-bottom: 1rem;
-}
-
 p.form-about:last-of-type {
     margin-bottom: 3rem;
 }
@@ -102,23 +89,82 @@ form {
 .container {
     margin-right: -3rem;
     margin-left: -3rem;
-    padding: 0 3rem 0 3rem;
+    padding: 1rem 3rem 1rem 3rem;
     background-color: white;
     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
-    ;
+}
+
+p.form-about, 
+legend {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    max-width: 75%;
+}
+
+legend {
+    margin-bottom: 1rem;
 }
 
 fieldset {
+    border: none;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 5rem;
+    /* align-items: center; */
+    width: 100%;
+}
 
-    /* width: 100%;
-    border: none; */
+li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
 
+li:last-of-type {
+    margin-bottom: 0;
+}
+
+label {
     
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+}
+
+input {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 0.4rem;
+    width: 17rem;
+    outline: none;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+input:focus {
+    border-color: blue;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+}
+
+input.error {
+    border-color: red;
 }
 
 li {
     list-style-type: none;
 }
+
+.error-message{
+    color: red;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 0.7rem;
+    /* display: none; */
+}
+
 
 
 .button {
