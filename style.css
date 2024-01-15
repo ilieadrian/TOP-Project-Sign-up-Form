@@ -115,9 +115,7 @@ legend {
 fieldset {
     border: none;
     display: flex;
-    /* justify-content: space-around; */
     gap: 5rem;
-    /* align-items: center; */
     width: 100%;
 }
 
@@ -162,12 +160,16 @@ li {
     list-style-type: none;
 }
 
-.error-message{
+.error-message {
     color: red;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 0.7rem;
     visibility: hidden;
+}
+
+.display-error {
+    visibility: visible;
 }
 
 button {
